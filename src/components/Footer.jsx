@@ -1,5 +1,4 @@
 import React from "react";
-import { Facebookicon } from "./Icons";
 import { Footerdata, Footericons } from "./Mapdata";
 
 const Footer = () => {
@@ -26,7 +25,7 @@ const Footer = () => {
               {Footericons.map((data, i) => {
                 return (
                   <a key={i} href={data.path}>
-                    <div className=" bg-gradient-to-b from-[#00FFE1] to-[#6E5DF6] w-[30px] p-[1px] h-[30px] rounded-full ">
+                    <div className=" bg-gradient-to-b from-[#00FFE1] to-[#6E5DF6] w-[30px] p-[1px] h-[30px] hover:scale-105 duration-300 rounded-full ">
                       <div className="rounded-full w-full h-full flex justify-center bg-[#010306] items-center">
                         {data.icon}
                       </div>

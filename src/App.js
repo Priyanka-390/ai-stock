@@ -7,8 +7,16 @@ import Gpusec from './components/Gpusec';
 import Statistics from './components/Statistics';
 import Preloader from './components/Preloader';
 import Tradesdec from './components/Tradesdec';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App() {
+   useEffect(() => {
+    AOS.init({
+      duration: 800,
+      once: true,
+    });
+  }, []);
    const [loder, setloder] = useState(false);
   useEffect(() => {
     setloder(true);
