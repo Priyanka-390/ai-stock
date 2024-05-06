@@ -1,1 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    scroll-behavior: smooth;
+}
+/* preloader */
+:root {
+  --hover: hover 1s linear infinite;
+}
+.text_animate {
+  -webkit-text-stroke: 2px white;
+}
+
+.text_animate:nth-child(1) {
+  animation: var(--hover);
+}
+
+.text_animate:nth-child(2) {
+  animation: var(--hover) .125s;
+}
+
+.text_animate:nth-child(3) {
+  animation: var(--hover) .25s;
+}
+
+.text_animate:nth-child(4) {
+  animation: var(--hover) .375s;
+}
+
+.text_animate:nth-child(5) {
+  animation: var(--hover) .5s;
+}
+
+.text_animate:nth-child(6) {
+  animation: var(--hover) .675s;
+}
+
+.text_animate:nth-child(7) {
+  animation: var(--hover) .75s;
+}
+
+.text_animate:nth-child(8) {
+  animation: var(--hover) .875s;
+}
+
+.text_animate:nth-child(9) {
+  animation: var(--hover) .95s;
+}
+
+.text_animate:nth-child(10) {
+  animation: var(--hover) 1.075s;
+}
+.scale{
+  transform: scale(0.5);
+}
+@keyframes hover {
+  0% {
+    transform: scale(.5);
+    color: white;
+    -webkit-text-stroke: 2px #b00000;
+  }
+
+  20% {
+    transform: scale(1);
+    color: #fff;
+    -webkit-text-stroke: 3px white;
+    filter: drop-shadow(0 0 1px #fff)drop-shadow(0 0 1px #fff)drop-shadow(0 0 3px #fff)drop-shadow(0 0 5px #fff);
+  }
+
+  50% {
+    transform: scale(.5);
+    color: white;
+    -webkit-text-stroke: 2px #b00000;
+  }
+}

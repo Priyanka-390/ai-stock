@@ -53,8 +53,8 @@ const Footer = () => {
           <div className="w-full h-[1px] bg-footerline md-mt-0 mt-6"></div>
           <div className="container max-w-[1140px] 2xl:max-w-[1320px] md:pb-24 px-3 mx-auto">
           <div className="py-7 md:flex flex-wrap justify-between items-center">
-              <div className="flex md:justify-start justify-center"><a href="" className=" font-openSans  font-normal sm:text-base text-sm text-[#CDD0D0]">Privacy Policy | Conditions</a></div>
-              <div className="flex md:justify-start justify-center"><a href="" className=" font-openSans font-normal sm:text-base text-sm text-[#CDD0D0]">Report Abuse/ Spam | Copyright@2024</a></div>
+              <div className="flex md:justify-start justify-center"><a href="" className=" font-openSans hover:text-white duration-300  font-normal sm:text-base text-sm text-[#CDD0D0]">Privacy Policy | Conditions</a></div>
+              <div className="flex md:justify-start justify-center"><a href="" className=" font-openSans hover:text-white duration-300 font-normal sm:text-base text-sm text-[#CDD0D0]">Report Abuse/ Spam | Copyright@2024</a></div>
               </div>
               </div>
     </div>

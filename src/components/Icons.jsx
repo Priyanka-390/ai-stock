@@ -23,7 +23,18 @@ export const Linkdinicon = () => {
 <path d="M0 0.408203H20V20.4082H0V0.408203Z" fill="white"/>
 </g>
 </svg>
-
-
     )
 }
+export const Uparrow = () => {
+  return (
+    <svg
+      className="fill-white"
+      xmlns="http://www.w3.org/2000/svg"
+      height="24"
+      viewBox="0 -960 960 960"
+      width="24"
+    >
+      <path d="M200-200v-80h560v80H200Zm14-160 266-400 266 400H214Zm266-80Zm-118 0h236L480-616 362-440Z" />
+    </svg>
+  );
+};

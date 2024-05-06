@@ -3,7 +3,8 @@ import nividia from "../assets/images/webp/nividia.webp"
 
 const Gpusec = () => {
   return (
-    <div className=" lg:py-64 md:py-40 sm:py-20 py-10">
+    <div className=" relative z-[1] lg:py-64 md:py-40 sm:py-20 py-10">
+            <div className="w-[346px] h-[346px] bg-ellipsegradient rounded-full absolute bottom-0 left-[-30%] z-[-1] blur-[200px]"></div>
       <div className="relative z-10 before:absolute before:top-[50%] before:left-0 after:-z-10 before:-z-10 before:rotate-180 before:right-[58%] before:h-[3px] before:bg-leftlinegradient after:absolute after:top-[50%] after:right-0 after:left-[58%] after:h-[3px] after:bg-rightlinegradient ">
         <h1 className=" font-bold md:pt-4 font-openSans lg:text-[70px] md:text-6xl text-5xl md:leading-[87.5px] text-white text-center">
           Top 7{" "}
