@@ -5,9 +5,9 @@ const Statistics = () => {
   return (
     <div className="relative z-[1]">
       <div className="w-[415px] h-[415px] bg-ellipsegradient rounded-full absolute top-[20%] left-[-30%] z-[-1] blur-[200px]"></div>
-      <div className="w-[415px] h-[415px] bg-ellipsegradient rounded-full absolute top-[20%] left-[-30%] z-[-1] blur-[200px]"></div>
+      <div className="w-[166px] h-[166px] bg-ellipsegradient rounded-full absolute top-[20%] right-0 z-[-1] blur-[200px]"></div>
       <div className="container max-w-[1140px] 2xl:max-w-[1320px] px-3 mx-auto">
-        <h2 className="text-center font-openSans font-bold md:text-5xl text-4xl text-white md:leading-[60px]">
+        <h2 className="text-center font-openSans font-bold md:text-5xl sm:text-4xl text-3xl text-white md:leading-[60px]">
           <span className=" bg-gradient-to-b from-[#00FFE1] to-[#6E5DF6] bg-clip-text text-transparent">
             Statistics
           </span>{" "}

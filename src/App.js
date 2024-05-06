@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import Gpusec from './components/Gpusec';
 import Statistics from './components/Statistics';
 import Preloader from './components/Preloader';
+import Tradesdec from './components/Tradesdec';
 
 function App() {
    const [loder, setloder] = useState(false);
@@ -24,7 +25,8 @@ function App() {
       ) : (
     <div className="bg-[url(./assets/images/webp/bg-page.webp)]">
       <Gpusec />
-      <Statistics />
+            <Statistics />
+            <Tradesdec/>
       <Footer />
       <Backtop/>
     </div>

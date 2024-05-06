@@ -4,7 +4,9 @@ import { Footerdata, Footericons } from "./Mapdata";
 
 const Footer = () => {
   return (
-    <div className=" lg:py-52 md:py-40 sm:py-20 pt-14">
+    <div className=" lg:py-52 md:py-40 relative z-[1] sm:py-20 pt-14">
+   <div className="w-[314px] h-[314px] lg:block hidden bg-ellipsegradient rounded-full absolute bottom-0 right-[-30%] z-[-1] blur-[200px]"></div>
+      <div className="w-[346px] h-[346px] bg-ellipsegradient rounded-full absolute bottom-0 left-[-30%] z-[-1] blur-[200px]"></div>
       <div className="container max-w-[1140px] 2xl:max-w-[1320px] px-3 mx-auto">
         <div className=" md:flex flex-wrap justify-between items-center md:pt-10 sm:mt-8">
           <div>
