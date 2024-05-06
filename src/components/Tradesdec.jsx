@@ -28,7 +28,7 @@ const Tradesdec = () => {
         }
     };
     const handlePopupClose = () => {
-        document.querySelectorAll(".input").value == '';
+        // document.querySelectorAll(".input").value == '';
         document.body.classList.remove("overflow-hidden")
         setShow(false)
     }
